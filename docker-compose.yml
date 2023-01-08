@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  archwayd:
+    image: archwaynetwork/archwayd:sha-edeae39
+    volumes:
+      - ./config:/root/.archway/config
+      - ./data:/root/.archway/data
+      - ./wasm:/root/.archway/wasm
+    command:
+      - start
+    ports:
+      - "26657:26657"
+      - "1317:1317"
+      - "9090:9090"
+      - "9091:9091"
