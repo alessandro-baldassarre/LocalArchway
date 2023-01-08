@@ -35,26 +35,25 @@ LocalArchway has the following advantages over a public testnet:
 
 - Start LocalArchway:
 
-    ```sh
-        docker-compose up
-    ```
+```sh
+make start
+```
 
 Your environment now contains:
 
-- [archwayd] RPC node running on "tcp://localhost:26657"
+- [archwayd] RPC node running on `tcp://localhost:26657`
 - LCD running on "http://localhost:1317"
-- [FCD] running on "http://localhost:3060"
 
-Stop LocalArchway:
+Stop LocalArchway (and retain chain data):
 
 ```sh
-    docker-compose stop
+make stop
 ```
 
-Reset the world state:
+Stop LocalArchway (and delete chain data):
 
 ```sh
-    docker-compose rm
+make restart
 ```
 
 ## Integrations
