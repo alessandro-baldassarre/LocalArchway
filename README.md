@@ -2,7 +2,7 @@
 
 ## What is LocalArchway?
 
-LocalArchway (a fork of LocalTerra) is a complete Archway testnet and ecosystem containerized with Docker and orchestrated with a simple `docker-compose` file. It simplifies the way smart-contract developers test their contracts in a sandbox before they deploy them on a testnet or mainnet.
+LocalArchway is a complete Archway testnet and ecosystem containerized with Docker and orchestrated with a simple `docker-compose` file. It simplifies the way smart-contract developers test their contracts in a sandbox before they deploy them on a testnet or mainnet.
 
 LocalArchway comes preconfigured with opinionated, sensible defaults for standard testing environments.
 
